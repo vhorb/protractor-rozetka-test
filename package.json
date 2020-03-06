@@ -1,0 +1,35 @@
+{
+    "name": "protractor-rozetrka-test",
+    "version": "0.0.1",
+    "description": "An example Protractor project that makes use of page objects for testing rozetka...",
+    "engines": {
+        "node": "13.6.0"
+    },
+    "author": {
+        "name": "Slav",
+        "email": "slav.horbovskykh@gmail.com",
+        "url": "https://www.upwork.com/ag/agency29/"
+    },
+    "scripts": {
+        "prepare": "node_modules/.bin/webdriver-manager update",
+        "test": "protractor conf.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vhorb/protractor-rozetka-test.git"
+    },
+    "keywords": [
+        "protractor",
+        "page objects",
+        "tests",
+        "automation",
+        "webdriver"
+    ],
+    "homepage": "https://github.com/vhorb/protractor-rozetka-test",
+    "dependencies": {
+        "jasmine": "^3.5.0",
+        "jasmine-spec-reporter": "^4.2.1",
+        "protractor": "^5.4.2",
+        "webdriver-manager": "^12.1.7"
+    }
+}
